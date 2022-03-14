@@ -1,0 +1,33 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="thankyou.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Gurkha: BTB - Thank You</title>
+</head>
+<body>
+  
+  <main>
+    <div id="article-section">
+      <div>
+        <img src="../../asset/img/mis/movie-logo.jpg" alt="gtb">
+      </div>
+      <div class="thankyou-container">
+        <h2>Thank you for contacting us</h2>
+        <p class="white"> Due to the busy schedule it may take us a while to get back to you, but don't fret, we will.
+        <br><br> Have a wonderful day!<br><br><br>
+        <i>This page will redirect in 15 seconds or you can click <a href="../../index/index.html">here</a> to visit the homepage</i></p>
+      </div>
+    </div>
+  </main>
+
+</body>
+<script>
+        let tID = setTimeout(function () {
+            window.location.href = "../../index/index.html";
+            window.clearTimeout(tID);		// clear time out.
+        }, 15000);
+</script>
+</html>

@@ -1,0 +1,17 @@
+@import url("../../index/style.css");
+
+
+main {
+  #article-section {
+    text-align: center;
+    div img {
+      width: 100%;
+    }
+    .thankyou-container {
+      h2,p {
+        padding: 10px;
+        margin: 10px;
+      }
+    }
+  }
+}
