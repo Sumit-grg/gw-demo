@@ -18,3 +18,7 @@ window.onscroll = function() {
     document.querySelector(".downarrow").style.display = "block";
   }
 }
+
+const play = document.getElementById("vid");
+
+play.play();
