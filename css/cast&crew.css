@@ -26,15 +26,13 @@ h3 {
   display: -ms-flexbox;
   display: flex;
   padding: 2px;
-  -webkit-transition: .3s;
-  transition: .3s;
+  -webkit-transition: .5s;
+  transition: .5s;
 }
 
 .gallery:hover .gallery__image {
-  -webkit-filter: grayscale(1);
-          filter: grayscale(1);
-  -webkit-filter: blur(1px);
-          filter: blur(1px);
+  -webkit-filter: grayscale(1) blur(1px);
+          filter: grayscale(1) blur(1px);
 }
 
 .gallery__column {

@@ -28,11 +28,10 @@ h3 {
 .gallery {
 	display: flex;
 	padding: 2px;
-	transition: .3s;
+	transition: .5s;
 	
 	&:hover &__image {
-		filter: grayscale(1);
-		filter: blur(1px);
+		filter: grayscale(1) blur(1px);
 	}
 	
 	&__column {
