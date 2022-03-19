@@ -17,10 +17,11 @@ main #article-section {
           align-items: center;
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
+  margin: 40px auto;
 }
 
 main #article-section .heading_img {
-  margin-bottom: 20px;
+  margin: 20px auto;
   text-align: center;
 }
 
@@ -28,7 +29,14 @@ main #article-section .heading_img img {
   width: 60%;
 }
 
+main #article-section .column {
+  width: 100%;
+  margin: 20px auto;
+  padding: 20px;
+}
+
 main #article-section .email {
+  margin: 20px auto;
   text-align: center;
 }
 
@@ -47,10 +55,6 @@ main #article-section .email {
   height: auto;
   z-index: -1000;
   overflow: hidden;
-}
-
-.column {
-  width: 90%;
 }
 
 /* Style inputs */
@@ -88,28 +92,23 @@ input[type=submit]:hover {
 label {
   color: #D79F5E;
   text-align: left;
-}
-
-#emailadd {
-  margin-top: 40px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  font-weight: bolder;
-}
-
-#emailadd div {
-  padding: 5px;
+  margin-top: 20px;
 }
 
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
   .column, input[type=submit] {
     width: 100%;
     margin-top: 0;
+  }
+  nav .menu__btn {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 1000px) and (min-width: 700px) {
+  nav .menu__btn {
+    margin: 0;
   }
 }
 /*# sourceMappingURL=contact.css.map */

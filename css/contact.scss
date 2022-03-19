@@ -4,17 +4,15 @@ main {
   #article-section {
     background: rgba(255, 255, 255, 0.97);
     height: 100%;
-    // border: 2px solid green;
-
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
     flex-wrap: nowrap;
+    margin: 40px auto;
 
     .heading_img {
-      // border: 2px solid red;
-      margin-bottom: 20px;
+      margin: 20px auto;
       text-align: center;
       
       img {
@@ -22,9 +20,15 @@ main {
       }
     }
 
+    .column {
+      width: 100%;
+      margin: 20px auto;
+      padding: 20px;
+    }
+
     .email {
+      margin: 20px auto;
       text-align: center;
-      // border: 2px solid black;
     }
 
   }
@@ -50,9 +54,6 @@ main {
   }
 }
 
-.column {
-  width: 90%;
-}
 /* Style inputs */
 input[type=text], select, textarea {
   width: 100%;
@@ -88,24 +89,28 @@ input[type=submit]:hover {
 label{
 	color:#D79F5E;
 	text-align: left;
+  margin-top: 20px;
 }
 
-#emailadd {
-  margin-top: 40px;
-  display: flex;
-  justify-content: space-evenly;
-  font-weight: bolder;
-  div {
-    padding: 5px;
-  }
-}
 
 
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
   .column, input[type=submit] {
     width: 100%;
     margin-top: 0;
   }
+  nav {
+    .menu__btn {
+        margin: 0;
+      }
+  }
 }
 
+@media screen and (max-width: 1000px) and (min-width: 700px) {
+  nav {
+    .menu__btn {
+        margin: 0;
+      }
+  }
+}
