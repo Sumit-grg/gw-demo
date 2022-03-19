@@ -14,10 +14,10 @@ checkbox.addEventListener('change', function() {
 window.onscroll = function() {
   if ((window.innerHeight + Math.ceil(window.pageYOffset)) >= document.body.offsetHeight - 100) {
   document.querySelector(".downarrow").style.display = "none";
-  // document.querySelector(".footer-container").style.display = "none";
+  document.querySelector(".footer-container").style.display = "block";
 } else {
   document.querySelector(".downarrow").style.display = "block";
-  // document.querySelector(".footer-container").style.display = "block";
+  document.querySelector(".footer-container").style.display = "none";
 
   }
 }
