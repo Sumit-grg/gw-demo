@@ -4,7 +4,8 @@ main #article-section {
 }
 
 main #article-section div img {
-  width: 100%;
+  width: 50%;
+  border-radius: 5px;
 }
 
 main #article-section .thankyou-container h2, main #article-section .thankyou-container p {
