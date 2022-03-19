@@ -113,11 +113,10 @@
 }
 
 nav {
-  background: rgba(0, 0, 0, 0.65);
   -webkit-box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
           box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
-  backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
   color: white;
   position: -webkit-sticky;
   position: sticky;
@@ -316,8 +315,10 @@ main #article-section .summary p span {
 .footer-container {
   margin-top: 40px;
   padding: 2px;
-  background: -webkit-gradient(linear, left bottom, left top, color-stop(26%, black), to(#777777));
-  background: linear-gradient(0deg, black 26%, #777777 100%);
+  -webkit-box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+          box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
 }
 
 .footer-container .social {
@@ -326,8 +327,8 @@ main #article-section .summary p span {
 
 .footer-container .social i {
   color: white;
-  padding: 10px;
-  margin: 5px;
+  padding: 5px;
+  margin: 0 5px;
 }
 
 .footer-container .social i:hover {
@@ -337,8 +338,7 @@ main #article-section .summary p span {
 }
 
 .footer-container .copyright {
-  padding: 10px;
-  margin: 5px;
+  padding: 5px;
   text-align: center;
   color: white;
 }

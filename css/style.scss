@@ -83,10 +83,10 @@
 }
 
 nav {
-  background: rgba( 0, 0, 0, 0.65 );
+  // background: rgba( 0, 0, 0, 0.65 );
   box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
   backdrop-filter: blur( 10px );
-  -webkit-backdrop-filter: blur( 10px );
+  // -webkit-backdrop-filter: blur( 10px );
   color: white;
   position: sticky;
   top: 0;
@@ -271,14 +271,17 @@ main {
 .footer-container {
   margin-top: 40px;
   padding: 2px;
-  background: linear-gradient(0deg, rgba(0,0,0,1) 26%, rgba(119,119,119,1) 100%);
+  // background: linear-gradient(0deg, rgba(0,0,0,1) 26%, rgba(119,119,119,1) 100%);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  backdrop-filter: blur( 10px );
+  -webkit-backdrop-filter: blur( 10px );
 
   .social {
     text-align: center;
     i {
       color: white;
-      padding: 10px;
-      margin: 5px;
+      padding: 5px;
+      margin: 0 5px;
 
       &:hover {
         transform: scale(1.2);
@@ -287,8 +290,8 @@ main {
     }
   }
   .copyright {
-    padding: 10px;
-    margin: 5px;
+    padding: 5px;
+    // margin: 5px;
     text-align: center;
     color: white;
   }

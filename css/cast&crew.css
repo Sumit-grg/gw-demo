@@ -43,7 +43,7 @@ h3 {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: 25%;
+  width: 100%;
 }
 
 .gallery__link {
@@ -69,7 +69,8 @@ h3 {
   width: 100%;
   -webkit-transition: .4s;
   transition: .4s;
-  border-radius: 5px 10px;
+  border-radius: 10px;
+  padding: 1px;
 }
 
 .gallery__image:hover {
