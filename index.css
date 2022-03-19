@@ -38,7 +38,7 @@
 .heading-img {
   position: fixed;
   z-index: -99;
-  top: 25%;
+  top: 30%;
   left: 50%;
   -webkit-transform: translate(-50%, 0);
           transform: translate(-50%, 0);
