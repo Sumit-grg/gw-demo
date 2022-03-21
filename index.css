@@ -463,11 +463,11 @@ main #article-section .summary p span {
             transition-duration: .4s;
   }
   .menu__item {
-    background: rgba(0, 0, 0, 0.65);
+    background: rgba(14, 13, 13, 0.65);
     -webkit-box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
             box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
-    backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
+            backdrop-filter: blur(10px);
     border-radius: 10px;
     margin: 4px;
     display: block;
@@ -477,7 +477,12 @@ main #article-section .summary p span {
             transition-duration: .25s;
   }
   .menu__item:hover {
-    background-color: #CFD8DC;
+    background: rgba(207, 204, 204, 0.8);
+    -webkit-box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    -webkit-backdrop-filter: blur(10px);
+            backdrop-filter: blur(10px);
+    color: black;
   }
   .footer-container {
     padding: 0;
@@ -494,7 +499,7 @@ main #article-section .summary p span {
   }
   .footer-container .copyright {
     padding: 0;
-    padding-bottom: 2px;
+    padding-bottom: 3px;
   }
   .footer-container .copyright p {
     font-size: medium;
@@ -603,11 +608,11 @@ main #article-section .summary p span {
             transition-duration: .4s;
   }
   .menu__item {
-    background: rgba(0, 0, 0, 0.65);
+    background: rgba(14, 13, 13, 0.65);
     -webkit-box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
             box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
-    backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
+            backdrop-filter: blur(10px);
     border-radius: 10px;
     margin: 4px;
     display: block;
@@ -617,7 +622,12 @@ main #article-section .summary p span {
             transition-duration: .25s;
   }
   .menu__item:hover {
-    background-color: #CFD8DC;
+    background: rgba(207, 204, 204, 0.8);
+    -webkit-box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    -webkit-backdrop-filter: blur(10px);
+            backdrop-filter: blur(10px);
+    color: black;
   }
   .footer-container {
     padding: 0;
@@ -634,7 +644,7 @@ main #article-section .summary p span {
   }
   .footer-container .copyright {
     padding: 0;
-    padding-bottom: 2px;
+    padding-bottom: 3px;
   }
   .footer-container .copyright p {
     font-size: medium;
