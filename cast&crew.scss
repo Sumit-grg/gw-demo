@@ -246,39 +246,11 @@ margin-top: 20px;
 	}
 
 	.rest-crew {
-		margin-top: 10px;
-		.sec-one {
-			display: flex;
-			flex-wrap: wrap;
-			justify-content: space-evenly;
-
-			.supp-actor, .exe-producer, .volunteer {
-				margin-top: 10px;
-				p {
-					padding: 5px;
-				}
-			}
-		}
-		.contributors, .exe-producer, .supp-actor, .volunteer {
+		.contributors, .exe-producer, .supp-actor, .volunteer, .sp-thanks {
 			margin-top: 10px;
 			div {
 				display: flex;
 				flex-wrap: wrap;
-
-				p {
-					padding: 5px;
-					text-align: justify;
-					text-justify: inter-word;
-				}
-			}
-		}
-
-		.sp-thanks {
-			margin-top: 10px;
-			div {
-				display: flex;
-				flex-wrap: wrap;
-
 				p {
 					padding: 5px;
 					text-align: justify;

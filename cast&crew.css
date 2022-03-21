@@ -278,34 +278,11 @@ h3 {
   padding: 5px;
 }
 
-.credit-container .rest-crew {
+.credit-container .rest-crew .contributors, .credit-container .rest-crew .exe-producer, .credit-container .rest-crew .supp-actor, .credit-container .rest-crew .volunteer, .credit-container .rest-crew .sp-thanks {
   margin-top: 10px;
 }
 
-.credit-container .rest-crew .sec-one {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-}
-
-.credit-container .rest-crew .sec-one .supp-actor, .credit-container .rest-crew .sec-one .exe-producer, .credit-container .rest-crew .sec-one .volunteer {
-  margin-top: 10px;
-}
-
-.credit-container .rest-crew .sec-one .supp-actor p, .credit-container .rest-crew .sec-one .exe-producer p, .credit-container .rest-crew .sec-one .volunteer p {
-  padding: 5px;
-}
-
-.credit-container .rest-crew .contributors, .credit-container .rest-crew .exe-producer, .credit-container .rest-crew .supp-actor, .credit-container .rest-crew .volunteer {
-  margin-top: 10px;
-}
-
-.credit-container .rest-crew .contributors div, .credit-container .rest-crew .exe-producer div, .credit-container .rest-crew .supp-actor div, .credit-container .rest-crew .volunteer div {
+.credit-container .rest-crew .contributors div, .credit-container .rest-crew .exe-producer div, .credit-container .rest-crew .supp-actor div, .credit-container .rest-crew .volunteer div, .credit-container .rest-crew .sp-thanks div {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -313,25 +290,7 @@ h3 {
       flex-wrap: wrap;
 }
 
-.credit-container .rest-crew .contributors div p, .credit-container .rest-crew .exe-producer div p, .credit-container .rest-crew .supp-actor div p, .credit-container .rest-crew .volunteer div p {
-  padding: 5px;
-  text-align: justify;
-  text-justify: inter-word;
-}
-
-.credit-container .rest-crew .sp-thanks {
-  margin-top: 10px;
-}
-
-.credit-container .rest-crew .sp-thanks div {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-}
-
-.credit-container .rest-crew .sp-thanks div p {
+.credit-container .rest-crew .contributors div p, .credit-container .rest-crew .exe-producer div p, .credit-container .rest-crew .supp-actor div p, .credit-container .rest-crew .volunteer div p, .credit-container .rest-crew .sp-thanks div p {
   padding: 5px;
   text-align: justify;
   text-justify: inter-word;
