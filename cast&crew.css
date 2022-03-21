@@ -301,11 +301,11 @@ h3 {
   padding: 5px;
 }
 
-.credit-container .rest-crew .contributors {
+.credit-container .rest-crew .contributors, .credit-container .rest-crew .exe-producer, .credit-container .rest-crew .supp-actor, .credit-container .rest-crew .volunteer {
   margin-top: 10px;
 }
 
-.credit-container .rest-crew .contributors div {
+.credit-container .rest-crew .contributors div, .credit-container .rest-crew .exe-producer div, .credit-container .rest-crew .supp-actor div, .credit-container .rest-crew .volunteer div {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -313,7 +313,7 @@ h3 {
       flex-wrap: wrap;
 }
 
-.credit-container .rest-crew .contributors div p {
+.credit-container .rest-crew .contributors div p, .credit-container .rest-crew .exe-producer div p, .credit-container .rest-crew .supp-actor div p, .credit-container .rest-crew .volunteer div p {
   padding: 5px;
   text-align: justify;
   text-justify: inter-word;
