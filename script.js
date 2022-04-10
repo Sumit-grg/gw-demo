@@ -22,6 +22,15 @@ window.onscroll = function() {
   }
 }
 
-const play = document.getElementById("vid");
+// const play = document.getElementById("vid");
 
-play.play();
+// play.play();
+
+
+fetch('http://ip-api.com/json')
+    .then(function (response) {
+        return response.json();
+    })
+    .then(function (r) {
+        (r.country == "United States") ? console.log("ny") : console.log("uk");
+    });
