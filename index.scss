@@ -116,22 +116,34 @@ nav {
 }
 
 .promo {
-  width: 60vw;
-  margin: 50px auto;
-  position: relative;
+  position: fixed;
+  z-index: 99;
+  border: 2px solid red;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  text-align: center;
+  transform: translate(-50%,-50%);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  backdrop-filter: blur( 10px );
   
-  img {
-    width: 100%;
-    border-radius: 15px;
-  }
+  div {
+    border: 4px dotted blue;
+    display: inline-block;
+    position: relative;
 
-  button {
-    font-size: larger;
-    position: absolute;
-    top: -5px;
-    right: -5px;
-    border-radius: 10px;
-    width: 2em;
+    img {
+      border-radius: 15px;
+    }
+    
+    button {
+      font-size:x-large;
+      position: absolute;
+      top: -5px;
+      right: -5px;
+      border-radius: 10px;
+      width: 2em;
+    }
   }
 }
 

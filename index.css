@@ -153,18 +153,33 @@ nav div .sidemenu {
 }
 
 .promo {
-  width: 60vw;
-  margin: 50px auto;
+  position: fixed;
+  z-index: 99;
+  border: 2px solid red;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  text-align: center;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -webkit-box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+          box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+}
+
+.promo div {
+  border: 4px dotted blue;
+  display: inline-block;
   position: relative;
 }
 
-.promo img {
-  width: 100%;
+.promo div img {
   border-radius: 15px;
 }
 
-.promo button {
-  font-size: larger;
+.promo div button {
+  font-size: x-large;
   position: absolute;
   top: -5px;
   right: -5px;
