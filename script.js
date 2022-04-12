@@ -22,15 +22,17 @@ window.onscroll = function() {
   }
 }
 
-// const play = document.getElementById("vid");
+const closeBtn = document.getElementById("close");
 
-// play.play();
+closeBtn.addEventListener("click", ()=> {
+  document.querySelector(".promo").style.display = "none";
+})
 
+// fetch('http://ip-api.com/json')
+//     .then(function (response) {
+//         return response.json();
+//     })
+//     .then(function (r) {
+//         (r.country == "United States") ? console.log("ny") : console.log("uk");
+//     });
 
-fetch('http://ip-api.com/json')
-    .then(function (response) {
-        return response.json();
-    })
-    .then(function (r) {
-        (r.country == "United States") ? console.log("ny") : console.log("uk");
-    });
