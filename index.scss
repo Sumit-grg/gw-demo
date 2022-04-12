@@ -142,11 +142,18 @@ nav {
     width: 40%;
   }
   button {
-    font-size:x-large;
-    position: absolute;
-    top: 0px;
+    // font-size: x-large;
+    // position: absolute;
+    // top: 100px;
+    margin: 0 auto;
+    display: block;
     border-radius: 10px;
-    width: 2em;
+    width: 40%;
+    &:hover {
+      cursor: pointer;
+      background:#777;
+      color: white ;
+    }
   }
 }
 
@@ -359,6 +366,15 @@ nav {
   }
 }
 
+.promo {
+  img {
+    width: 95%;
+  }
+  button {
+    width: 95%;
+  }
+}
+
 .heading-img img {
     width: 90vw; 
 }
@@ -518,6 +534,15 @@ nav {
   }
 }
 
+.promo {
+  img {
+    width: 90%;
+  }
+  button {
+    width: 90%;
+  }
+}
+
 main {
   #article-section {
     margin-bottom: 40px;
@@ -640,6 +665,15 @@ main {
 @media screen and (max-width: 1300px) and (min-width: 1000px){
   .heading-img img {
       width: 60vw; 
+  }
+
+  .promo {
+    img {
+      width: 70%;
+    }
+    button {
+      width: 70%;
+    }
   }
 
   main {

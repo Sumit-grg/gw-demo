@@ -195,11 +195,16 @@ nav div .sidemenu {
 }
 
 .promo button {
-  font-size: x-large;
-  position: absolute;
-  top: 0px;
+  margin: 0 auto;
+  display: block;
   border-radius: 10px;
-  width: 2em;
+  width: 40%;
+}
+
+.promo button:hover {
+  cursor: pointer;
+  background: #777;
+  color: white;
 }
 
 main #article-section {
@@ -420,6 +425,12 @@ main #article-section .summary p span {
   nav div .burger:hover {
     cursor: pointer;
   }
+  .promo img {
+    width: 95%;
+  }
+  .promo button {
+    width: 95%;
+  }
   .heading-img img {
     width: 90vw;
   }
@@ -581,6 +592,12 @@ main #article-section .summary p span {
   nav div .burger:hover {
     cursor: pointer;
   }
+  .promo img {
+    width: 90%;
+  }
+  .promo button {
+    width: 90%;
+  }
   main #article-section {
     margin-bottom: 40px;
     margin-top: 40px;
@@ -704,6 +721,12 @@ main #article-section .summary p span {
 @media screen and (max-width: 1300px) and (min-width: 1000px) {
   .heading-img img {
     width: 60vw;
+  }
+  .promo img {
+    width: 70%;
+  }
+  .promo button {
+    width: 70%;
   }
   main #article-section {
     width: 80vw;
