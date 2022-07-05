@@ -189,7 +189,22 @@ nav div .sidemenu {
   }
 }
 
-.promo img {
+.promo h1 {
+  color: white;
+  text-decoration: underline;
+  text-align: center;
+  font-weight: 900;
+}
+
+.promo #poster-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: scroll;
+}
+
+.promo #poster-container img {
+  margin: 6px 10px;
   border-radius: 15px;
   width: 40%;
 }
@@ -425,8 +440,16 @@ main #article-section .summary p span {
   nav div .burger:hover {
     cursor: pointer;
   }
-  .promo img {
-    width: 95%;
+  .promo #poster-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    overflow: scroll;
+  }
+  .promo #poster-container img {
+    margin: 4px 10px;
+    border-radius: 15px;
+    width: 85%;
   }
   .promo button {
     width: 95%;
@@ -592,49 +615,57 @@ main #article-section .summary p span {
   nav div .burger:hover {
     cursor: pointer;
   }
-  .promo img {
+  .promo #poster-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    overflow: scroll;
+  }
+  .promo #poster-container img {
+    margin: 4px 10px;
+    border-radius: 15px;
+    width: 80%;
+  }
+  .promo #poster-container button {
     width: 90%;
   }
-  .promo button {
-    width: 90%;
-  }
-  main #article-section {
+  .promo main #article-section {
     margin-bottom: 40px;
     margin-top: 40px;
     width: 90vw;
     padding: 25px;
   }
-  main #article-section .summary p {
+  .promo main #article-section .summary p {
     font-size: 20px;
     font-weight: 200;
   }
-  main #article-section .summary p span {
+  .promo main #article-section .summary p span {
     font-size: 20px;
   }
-  #sidemenu {
+  .promo #sidemenu {
     display: block;
   }
-  #menu__toggle {
+  .promo #menu__toggle {
     opacity: 0;
   }
-  #menu__toggle:checked + .menu__btn > span {
+  .promo #menu__toggle:checked + .menu__btn > span {
     -webkit-transform: rotate(45deg);
             transform: rotate(45deg);
   }
-  #menu__toggle:checked + .menu__btn > span::before {
+  .promo #menu__toggle:checked + .menu__btn > span::before {
     top: 0;
     -webkit-transform: rotate(0deg);
             transform: rotate(0deg);
   }
-  #menu__toggle:checked + .menu__btn > span::after {
+  .promo #menu__toggle:checked + .menu__btn > span::after {
     top: 0;
     -webkit-transform: rotate(90deg);
             transform: rotate(90deg);
   }
-  #menu__toggle:checked ~ .menu__box {
+  .promo #menu__toggle:checked ~ .menu__box {
     right: 0 !important;
   }
-  .menu__btn {
+  .promo .menu__btn {
     position: fixed;
     top: 20px;
     right: 20px;
@@ -643,9 +674,9 @@ main #article-section .summary p span {
     cursor: pointer;
     z-index: 1;
   }
-  .menu__btn > span,
-  .menu__btn > span::before,
-  .menu__btn > span::after {
+  .promo .menu__btn > span,
+  .promo .menu__btn > span::before,
+  .promo .menu__btn > span::after {
     display: block;
     position: absolute;
     width: 100%;
@@ -654,15 +685,15 @@ main #article-section .summary p span {
     -webkit-transition-duration: .25s;
             transition-duration: .25s;
   }
-  .menu__btn > span::before {
+  .promo .menu__btn > span::before {
     content: '';
     top: -8px;
   }
-  .menu__btn > span::after {
+  .promo .menu__btn > span::after {
     content: '';
     top: 8px;
   }
-  .menu__box, #what {
+  .promo .menu__box, .promo #what {
     display: none;
     text-align: center;
     position: fixed;
@@ -674,7 +705,7 @@ main #article-section .summary p span {
     -webkit-transition-duration: .4s;
             transition-duration: .4s;
   }
-  .menu__item {
+  .promo .menu__item {
     background: rgba(14, 13, 13, 0.65);
     -webkit-box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
             box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
@@ -688,7 +719,7 @@ main #article-section .summary p span {
     -webkit-transition-duration: .25s;
             transition-duration: .25s;
   }
-  .menu__item:hover {
+  .promo .menu__item:hover {
     background: rgba(207, 204, 204, 0.8);
     -webkit-box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
             box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
@@ -696,39 +727,47 @@ main #article-section .summary p span {
             backdrop-filter: blur(10px);
     color: black;
   }
-  .footer-container {
+  .promo .footer-container {
     padding: 0;
   }
-  .footer-container .social a:link i, .footer-container .social a:visited i, .footer-container .social a i {
+  .promo .footer-container .social a:link i, .promo .footer-container .social a:visited i, .promo .footer-container .social a i {
     padding: 0;
     margin: 0 5px;
     -webkit-transform: scale(0.7);
             transform: scale(0.7);
   }
-  .footer-container .social a:link i:hover, .footer-container .social a:visited i:hover, .footer-container .social a i:hover {
+  .promo .footer-container .social a:link i:hover, .promo .footer-container .social a:visited i:hover, .promo .footer-container .social a i:hover {
     -webkit-transform: scale(0.9);
             transform: scale(0.9);
   }
-  .footer-container .copyright {
+  .promo .footer-container .copyright {
     padding: 0;
     padding-bottom: 3px;
   }
-  .footer-container .copyright p {
+  .promo .footer-container .copyright p {
     font-size: medium;
   }
 }
 
-@media screen and (max-width: 1300px) and (min-width: 1000px) {
+@media screen and (max-width: 1000px) and (min-width: 700px) and (max-width: 1300px) and (min-width: 1000px) {
   .heading-img img {
     width: 60vw;
   }
-  .promo img {
+  .promo #poster-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    overflow: scroll;
+  }
+  .promo #poster-container img {
+    margin: 6px 10px;
+    border-radius: 15px;
     width: 70%;
   }
-  .promo button {
+  .promo #poster-container button {
     width: 70%;
   }
-  main #article-section {
+  .promo main #article-section {
     width: 80vw;
     padding: 40px;
   }
