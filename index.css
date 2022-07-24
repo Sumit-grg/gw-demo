@@ -209,16 +209,36 @@ nav div .sidemenu {
   width: 40%;
 }
 
-.promo button {
-  margin: 0 auto;
-  display: block;
-  border-radius: 10px;
-  width: 40%;
+.promo .btn-promo {
+  margin: 2px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
-.promo button:hover {
+.promo .btn-promo button, .promo .btn-promo #buy {
+  margin: 2px auto;
+  display: block;
+  border-radius: 5px;
+  width: 40%;
+  padding: 6px;
+}
+
+.promo .btn-promo #buy {
+  border: 1px solid #292929;
+  background-color: #044f04;
+  color: white;
+}
+
+.promo .btn-promo #buy:hover {
   cursor: pointer;
-  background: #777;
+  background: #4a854a;
+  color: white;
+}
+
+.promo .btn-promo #close:hover {
+  cursor: pointer;
+  background: #b7b7b7;
   color: white;
 }
 
@@ -451,7 +471,7 @@ main #article-section .summary p span {
     border-radius: 15px;
     width: 85%;
   }
-  .promo button {
+  .promo button, .promo #buy {
     width: 95%;
   }
   .heading-img img {
@@ -590,7 +610,7 @@ main #article-section .summary p span {
   }
 }
 
-@media screen and (max-width: 1000px) and (min-width: 700px) {
+@media (max-width: 1000px) and (min-width: 700px) {
   .heading-img img {
     width: 80vw;
   }
@@ -610,7 +630,7 @@ main #article-section .summary p span {
             justify-content: space-between;
   }
   nav div .burger-none {
-    display: none;
+    display: inline-block;
   }
   nav div .burger:hover {
     cursor: pointer;
@@ -626,7 +646,7 @@ main #article-section .summary p span {
     border-radius: 15px;
     width: 80%;
   }
-  .promo #poster-container button {
+  .promo #poster-container button, .promo #poster-container #buy {
     width: 90%;
   }
   .promo main #article-section {
@@ -764,7 +784,7 @@ main #article-section .summary p span {
     border-radius: 15px;
     width: 70%;
   }
-  .promo #poster-container button {
+  .promo #poster-container button, .promo #poster-container #buy {
     width: 70%;
   }
   .promo main #article-section {

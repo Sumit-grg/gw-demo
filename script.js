@@ -28,11 +28,10 @@ closeBtn.addEventListener("click", ()=> {
   document.querySelector(".promo").style.display = "none";
 })
 
-// fetch('http://ip-api.com/json')
-//     .then(function (response) {
-//         return response.json();
-//     })
-//     .then(function (r) {
-//         (r.country == "United States") ? console.log("ny") : console.log("uk");
-//     });
+const buyBtn = document.getElementById("buy");
+
+buyBtn.addEventListener("click", ()=> {
+  document.querySelector(".promo").style.display = "none";
+})
+
 
