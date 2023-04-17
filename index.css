@@ -148,6 +148,11 @@ nav div ul a:hover {
   text-decoration: underline;
 }
 
+nav div ul #disable {
+  cursor: not-allowed;
+  text-decoration: line-through;
+}
+
 nav div .sidemenu {
   display: none;
 }

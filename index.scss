@@ -108,6 +108,11 @@ nav {
           text-decoration: underline;
         }
       }
+      #disable{
+        cursor: not-allowed;
+        text-decoration: line-through;
+        
+      }
     }
     .sidemenu {
       display: none;
