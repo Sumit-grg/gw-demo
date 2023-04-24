@@ -2,11 +2,14 @@
 main #article-section {
   text-align: center;
 }
+
 main #article-section div img {
   width: 50%;
   border-radius: 5px;
 }
+
 main #article-section .thankyou-container h2, main #article-section .thankyou-container p {
   padding: 10px;
   margin: 10px;
-}/*# sourceMappingURL=thankyou.css.map */
+}
+/*# sourceMappingURL=thankyou.css.map */

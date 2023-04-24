@@ -3,18 +3,23 @@
   text-align: center;
   border: 2px solid black;
 }
+
 #article-section .poster img {
   width: 80%;
   border-radius: 10px 10px;
 }
+
 #article-section .info {
-  background: rgb(235, 235, 235);
-  background: linear-gradient(180deg, rgb(235, 235, 235) 53%, rgb(218, 218, 218) 100%);
+  background: #ebebeb;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(53%, #ebebeb), to(#dadada));
+  background: linear-gradient(180deg, #ebebeb 53%, #dadada 100%);
   border-radius: 5px;
-  box-shadow: 0 0 5px #bdbdbd;
+  -webkit-box-shadow: 0 0 5px #bdbdbd;
+          box-shadow: 0 0 5px #bdbdbd;
   padding: 10px;
   margin-top: 20px;
 }
+
 #article-section .info p {
   font-family: sans-serif;
   font-size: 22px;
@@ -23,11 +28,13 @@
   text-justify: inter-word;
   font-weight: 300;
 }
+
 #article-section .info p span {
   font-size: 22px;
   line-height: 1.25em;
   font-weight: bolder;
 }
+
 #article-section .info #center p {
   text-align: center;
 }
@@ -39,6 +46,7 @@
   z-index: -999;
   top: 50%;
   left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
   min-width: 100%;
   min-height: 100%;
@@ -49,9 +57,10 @@
 }
 
 .sponsor-gallery {
-  background: rgb(215, 214, 214);
+  background: #d7d6d6;
   border-radius: 15px;
 }
+
 .sponsor-gallery img {
   width: 50px;
   border-radius: 25%;
@@ -68,9 +77,11 @@
 .mySlides {
   display: none;
 }
+
 .mySlides img {
   width: 90%;
-  transition: 0.3s;
+  -webkit-transition: .3s;
+  transition: .3s;
   border-radius: 5px 10px;
 }
 
@@ -85,10 +96,12 @@
   color: white;
   font-weight: bold;
   font-size: 18px;
+  -webkit-transition: 0.6s ease;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   -webkit-user-select: none;
      -moz-user-select: none;
+      -ms-user-select: none;
           user-select: none;
 }
 
@@ -132,6 +145,7 @@
   background-color: #bbb;
   border-radius: 50%;
   display: inline-block;
+  -webkit-transition: background-color 0.6s ease;
   transition: background-color 0.6s ease;
 }
 
@@ -146,14 +160,25 @@
   animation-name: fade;
   animation-duration: 1.5s;
 }
-@keyframes fade {
+
+@-webkit-keyframes fade {
   from {
-    opacity: 0.4;
+    opacity: .4;
   }
   to {
     opacity: 1;
   }
 }
+
+@keyframes fade {
+  from {
+    opacity: .4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 @media (max-width: 700px) {
   .info p {
     font-size: 18px !important;
@@ -162,6 +187,7 @@
     font-size: 18px !important;
   }
 }
+
 @media screen and (max-width: 1000px) and (min-width: 700px) {
   .info p {
     font-size: 20px !important;
@@ -169,4 +195,5 @@
   .info p span {
     font-size: 20px !important;
   }
-}/*# sourceMappingURL=film-info.css.map */
+}
+/*# sourceMappingURL=film-info.css.map */
