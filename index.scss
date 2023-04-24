@@ -350,15 +350,13 @@ main {
   display: flex !important;
   justify-content: space-between;
   align-items: center;
-  border: 2px solid blue;
   margin-top: 40px;
   padding: 2px;
   // background: linear-gradient(0deg, rgba(0,0,0,1) 26%, rgba(119,119,119,1) 100%);
   box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
   backdrop-filter: blur( 10px );
-  // -webkit-backdrop-filter: blur( 10px );
+  -webkit-backdrop-filter: blur( 10px );
   .OTT{
-    border: 2px dotted red;
     img{
       width: 3em;
       margin: 0 5px;
