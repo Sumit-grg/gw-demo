@@ -357,6 +357,15 @@ main {
   backdrop-filter: blur( 10px );
   -webkit-backdrop-filter: blur( 10px );
   .OTT{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    a{
+      padding: 2px;
+      border-radius: 5px;
+      text-decoration: none;
+      background-color: white;
+    }
     img{
       width: 3em;
       margin: 0 5px;
