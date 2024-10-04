@@ -2,15 +2,8 @@
 * {
   margin: 0;
   padding: 0;
-<<<<<<< HEAD
   box-sizing: border-box;
   font-family: "Pt Serif", serif;
-=======
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  font-family: 'lato';
-  font-size: large;
->>>>>>> 97d5f86da6255a506d73dec69715c93bd03e8921
 }
 
 .ParallaxVideo {
