@@ -346,15 +346,35 @@ main {
 }
 
 .footer-container {
+  display: flex !important;
+  justify-content: space-between;
+  align-items: center;
   margin-top: 40px;
   padding: 2px;
   // background: linear-gradient(0deg, rgba(0,0,0,1) 26%, rgba(119,119,119,1) 100%);
   box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
   backdrop-filter: blur( 10px );
   -webkit-backdrop-filter: blur( 10px );
-
+  .OTT{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    a{
+      padding: 2px;
+      border-radius: 5px;
+      text-decoration: none;
+      background-color: white;
+    }
+    img{
+      width: 3em;
+      margin: 0 5px;
+      border-radius: 5px;
+    }
+  }
+  .copyright {
+    color: white;
+  }
   .social {
-    text-align: center;
     a:link, a:visited, a {
       text-decoration: none;
       color: inherit;
@@ -362,19 +382,14 @@ main {
         color: white;
         padding: 2px;
         margin: 0 5px;
+        transform: scale(1.5);
   
         &:hover {
-          transform: scale(1.3);
+          transform: scale(2);
           color: #F56040;
         }
       }
     }
-  }
-  .copyright {
-    padding: 2px;
-    // margin: 5px;
-    text-align: center;
-    color: white;
   }
 }
 
@@ -536,18 +551,18 @@ main {
       i {
         padding: 0;
         margin: 0 5px;
-        transform: scale(0.7);
+        transform: scale(1);
         &:hover {
-          transform: scale(0.9);
+          transform: scale(1.3);
         }
       }
     }
   }
   .copyright {
     padding: 0;
-    padding-bottom: 3px;
+    // padding-bottom: 3px;
     p{
-      font-size: medium;
+      font-size: small;
     }
   }
 }
@@ -704,9 +719,8 @@ main {
     }
     .copyright {
       padding: 0;
-      padding-bottom: 3px;
       p{
-        font-size: medium;
+        font-size: small;
       }
     }
   }
